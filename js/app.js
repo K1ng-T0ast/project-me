@@ -1,3 +1,5 @@
+"use strict";
+
 alert('Welcome to my domain! We\'re going to play a guessing game.. Answer each of the 5 questions with a "Yes" or "No" to continue!');
 
 let quest1 = prompt('Are my pronouns he/him?').toLowerCase();
