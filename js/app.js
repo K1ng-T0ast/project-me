@@ -94,4 +94,5 @@ for (let i = 0; i < 7; i++) {
 }
 alert(`Thanks for playing! BTW, my favorite foods are: ${answers}`);
 
+
 alert(yourName + ', I\'d like to welcome you to my site where you can learn more about me. Feel free to drop a line through LinkedIn or GitHub!')
