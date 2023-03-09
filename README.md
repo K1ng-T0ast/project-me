@@ -4,6 +4,10 @@ Project: Me, is a continuous effort of creating a stable 'About Me' website usin
 
 ## Version History
 
+**Driver Joshua Coffey**
+
+**Navigator Kyle White**
+
 ### Version 1.3
 
 + Added JavaScript conditional loops and logic statements for Lab 3 (number guessing game and favorite foods question)
