@@ -6,6 +6,8 @@ body{
 h1{
     text-align:center;
     color: #e85a4f;
+    font-size: 75px;
+    margin: 10%;
 }
 
 h2{
@@ -28,9 +30,19 @@ li{
 .bio1{
     text-align:center;
     color: #6d6c6a;
+    margin: 4%;
+    border: 2px solid black;
+    padding: 8px;
 }
 
 .bio2{
+    text-align:center;
+    color:#555555;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.bio3{
     text-align:center;
     color:#555555;
 }

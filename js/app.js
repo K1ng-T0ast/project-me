@@ -42,10 +42,56 @@ let quest5 = prompt('Do I have a crazy story involving Mexican federales and ska
         alert('I actually do and it\'s more funny than dangerous.')
     }
 
+let yourName = ("")   
 yourName = prompt('Thanks for answering so many questions about me. By the way, what\'s your name?');
 console.log('Seems like your name is ' + yourName + '. Welcome!');
 
 alert('Hey there, ' + yourName + '! Did we just become best friends?!');
-alert(yourName + ', I\'d like to welcome you to my site where you can learn so much more about me than some yes or no questions. Feel free to drop me a line through LinkedIn or GitHub!')
 
+const numAnswer = 7;
+let numGuess = 0;
+let numGame
 
+while (numGuess < 4) {
+    numGame = parseInt(prompt('Now that we\'re best friends, let\'s play one last game. Pick a number between 1 and 10'));
+    numGuess++;
+
+    if (numGame === numAnswer) {
+        alert(`Correct! You Win! You guessed it in ${numGuess} tries!`);
+        console.log(numGuess);
+        break;
+    } else if (numGame > numAnswer) {
+        alert('Too high! Guess again!')
+    } else {
+        alert('Too low! Guess again.')
+    }
+    if (numGuess === 4 && numGame !== numAnswer) {
+        alert('Too many guesses! The correct number was 7!');
+    }
+}
+
+let questionOne = "What are some of my favorite foods? You\'ll have SIX guesses to get ONE right!";
+let answers = ['pasta', 'sushi', 'tacos', 'steak', 'curry', 'noodles', 'burgers', 'teriyaki', 'cookies', 'seafood'];
+let response = "";
+
+for (let i = 0; i < 7; i++) {
+    response = prompt(questionOne).toLowerCase();
+    console.log(response);
+    let correct = false
+    for (let k = 0; k < answers.length; k++) {
+
+        if (response === answers[k]) {
+            alert('Yes!!');
+            correct = true
+            break;
+        }
+    }
+    if (correct == false) {
+        alert('Try Again!');
+    } else {
+        break;
+    }
+}
+alert(`Thanks for playing! BTW, my favorite foods are: ${answers}`);
+
+alert(yourName + ', I\'d like to welcome you to my site where you can learn more about me. Feel free to drop a line through LinkedIn or GitHub!')
