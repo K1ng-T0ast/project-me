@@ -1,8 +1,8 @@
 "use strict";
 
 alert('Welcome to my domain! We\'re going to play a guessing game.. Answer each of the 5 questions with a "Yes" or "No" to continue!');
-function meQuest() {
-
+    
+    function myQuest(){
     let quest1 = prompt('Are my pronouns he/him?').toLowerCase();
     if (quest1 === 'yes') {
         alert('Spot on! Next question..')
@@ -11,12 +11,12 @@ function meQuest() {
         alert('Turns out, I AM a he/him!')
     }
 
-    let quest2 = prompt('Am I over 30 years old?').toLowerCase();
+    let quest2 = prompt('Am I under 30 years old?').toLowerCase();
     if (quest2 === 'yes') {
-        alert('You are on fire! Should I be keeping score?');
+        alert('Now now, flattery will get you nowhere :P If it helps, I still act like a child.');
         console.log('I really don\'t want ' + quest2 + ' to be the answer..');
     } else {
-        alert('Now now, flattery will get you nowhere :P')
+        alert('hey HEY! Age is only a state of mind.')
     }
 
     let quest3 = prompt('Did I grow up in San Diego where it is really always sunny?').toLowerCase();
@@ -27,9 +27,9 @@ function meQuest() {
         alert('Awww, thanks for thinking of a different place, but the answer is San Diego.')
     }
 
-    let quest4 = prompt('Do I own a cat named after Patrick Swayze in the 1991 action classic "Point Break" also starring Keanu Reeves as special agent Johnny Utah and a few scenes with Red Hot Chili Peppers lead singer Anthony Kiedis?').toLowerCase();
+    let quest4 = prompt('Do I own a dog named after Patrick Swayze in the 1991 action classic "Point Break" also starring Keanu Reeves as special agent Johnny Utah and a few scenes with Red Hot Chili Peppers lead singer Anthony Kiedis?').toLowerCase();
     if (quest4 === 'yes') {
-        alert('Correct! His name is Bodhi and he is very fluff. Meow brah!')
+        alert('False! His name is Bodhi, he is a cat, and he is very fluff. Meow brah!')
         console.log('I think if you didn\'t say ' + quest4 + ' I would have been mildly dissapointed.')
     } else {
         alert('Utah! Get me TWO more tries to answer that question because you got it wrong! That\'s okay, still cool in my books.')
@@ -43,7 +43,7 @@ function meQuest() {
         alert('I actually do and it\'s more funny than dangerous.')
     }
 }
-meQuest();
+myQuest();
 
 function newWelcome() {
     let yourName = ("")

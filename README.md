@@ -25,6 +25,10 @@ Project: Me, is a continuous effort of creating a stable 'About Me' website usin
 
 + Created git repository for project, created files and directories in repository, added: eslint, gitignore, and reset css files and uploaded pre-exisiting code for reset.css and gitignore
 
+**_Lab 5b Lighthouse_**
+
+<img src="lab5c.png>>
+
 **_Lab 3 Lighthouse_**
 
 <img src="/img/kylewhite-lighthouse-lab3.png" alt="Lighthouse Score" title="LightHouse Score for Lab 3">

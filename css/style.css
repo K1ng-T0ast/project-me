@@ -7,24 +7,37 @@ h1{
     text-align:center;
     color: #e85a4f;
     font-size: 75px;
-    margin: 10%;
+    margin: 7%;
 }
 
 h2{
     color: #e85a4f;
+    margin: 1%;
 }
 
 h3{
     color: #6d6c6a;
+    margin: 2%;
+    font-weight: 700;
 }
 
 li{
     color: #555555;
+    list-style-type: circle;
+    margin: 2%;
+}
+
+footer{
+    text-align: center;
+    margin: 2%;
+    padding: 5px;
 }
 
 .p{
     font-style: italic;
-    font-weight:500;
+    font-weight: 500;
+    margin: 2%;
+    padding: 4px;
 }
 
 .bio1{
@@ -45,8 +58,14 @@ li{
 .bio3{
     text-align:center;
     color:#555555;
+    margin: 4%;
 }
 
 .job{
     font-style:italic;
+}
+
+.titl{
+    padding: 10px;
+    font-weight: 700;
 }
